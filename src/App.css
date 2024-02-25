@@ -1,5 +1,18 @@
+
+body{
+	background-color: black;
+}
 #header{
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 25px;
+	color: white;
 	text-align:center;
+	margin-top: 150px;
+	
+}
+.contact_info{
+	font-size: 15px;
+	color: white;
+	margin-top: 10px;
+	text-align: center;
 }
