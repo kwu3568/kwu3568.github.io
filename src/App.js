@@ -30,7 +30,7 @@ class App extends React.Component{
    <body>
    <h1 id = "header">Kevin Wu</h1>
    <div class = "resume_container">
-   <img id = "resume_pdf" class = "resume_pdf" src = "resume.pdf"></img>
+   <img onClick = {() => this.show_resume()} id = "resume_pdf" class = "resume_pdf" src = "resume.pdf"></img>
    </div>
    <div class = "contact_info">
    <div class = "email">kwu3568@gmail.com</div>
