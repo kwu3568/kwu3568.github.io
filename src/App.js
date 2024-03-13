@@ -11,7 +11,7 @@ class App extends React.Component{
   	
   }
   show_resume(){
-  	if(this.state.flag == 0){
+  	if(this.state.flag === 0){
   		document.getElementById("resume_pdf").style.display = "inline-block";
   		this.setState({
   			flag: 1
@@ -30,20 +30,20 @@ class App extends React.Component{
    <body>
    <h1 id = "header">Kevin Wu</h1>
    <div class = "resume_container">
-   <img onClick = {() => this.show_resume()} id = "resume_pdf" class = "resume_pdf" src = "resume.pdf"></img>
+   <img onClick = {() => this.show_resume()} id = "resume_pdf" class = "resume_pdf" src = "resume.pdf" alt ="resume"></img>
    </div>
    <div class = "contact_info">
    <div class = "email">kwu3568@gmail.com</div>
    <div class = "phone_number">(917)-968-3876</div>
    </div>
    <div class = "links">
-   <a href = "https://github.com/kwu3568">
-   <img class = "github" src = "github.png"></img>
+   <a href = "https://github.com/kwu3568" target= "_blank">
+   <img class = "github" src = "github.png" alt="github"></img>
    </a>
-   <a href = "https://www.linkedin.com/in/kevin-wu-871287118">
-   <img class = "linkedin" src = "linkedin.png"></img>
+   <a href = "https://www.linkedin.com/in/kevin-wu-871287118" target= "_blank">
+   <img class = "linkedin" src = "linkedin.png" alt="linkedin"></img>
    </a>
-   <img onClick = {() => this.show_resume()} class = "resume" src = "resume.jpeg"></img>
+   <img onClick = {() => this.show_resume()} class = "resume" src = "resume.jpeg" alt="resume"></img>
    </div>   
    </body>
    </html>
