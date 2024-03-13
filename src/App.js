@@ -12,13 +12,13 @@ class App extends React.Component{
   }
   show_resume(){
   	if(this.state.flag === 0){
-  		document.getElementById("resume_pdf").style.display = "inline-block";
+  		document.getElementById("resume_png").style.display = "inline-block";
   		this.setState({
   			flag: 1
   		})
   	}
   	else{
-  		document.getElementById("resume_pdf").style.display = "none";
+  		document.getElementById("resume_png").style.display = "none";
   		this.setState({
   			flag: 0
   		})
@@ -30,7 +30,7 @@ class App extends React.Component{
    <body>
    <h1 id = "header">Kevin Wu</h1>
    <div class = "resume_container">
-   <img onClick = {() => this.show_resume()} id = "resume_pdf" class = "resume_pdf" src = "resume.pdf" alt ="resume"></img>
+   <img onClick = {() => this.show_resume()} id = "resume_png" class = "resume_png" src = "resume.png" alt ="resume"></img>
    </div>
    <div class = "contact_info">
    <div class = "email">kwu3568@gmail.com</div>

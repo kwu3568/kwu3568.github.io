@@ -40,6 +40,8 @@ body{
 	text-align: center;
 	
 }
-.resume_pdf{
+.resume_png{
+	height: 776.5px;
+	width: 600px;
 	display: none;
 }
