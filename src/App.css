@@ -29,7 +29,7 @@ body{
 	padding-right: 7.5px;
 }
 .resume_png {
-	display: block;
+	display: none;
 	height: 776.5px;
 	width: 600px;
 	margin-left: auto;

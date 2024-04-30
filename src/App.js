@@ -18,6 +18,7 @@ export default function App(){
 		
 	}
 	function remove_resume(){
+		setFlag(0);
 		document.getElementById("resume_png").style.display = "none";
 	}
 
