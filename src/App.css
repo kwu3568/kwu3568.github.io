@@ -1,4 +1,5 @@
 
+
 body{
 	background-color: #272727;
 }
@@ -17,31 +18,42 @@ body{
 	text-align: center;
 }
 .links{
+	margin-top: 15px;
+	text-align: center;
+}
+.resume, .linkedin, .github{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	padding-left: 7.5px;
+	padding-right: 7.5px;
+}
+.resume_png {
 	display: block;
-	text-align: center;
-	margin-top: 20px;
-}
-
-.github{
-	width: 50px;
-	height: 50px;
-}
-.linkedin{
-	width: 50px;
-	height: 50px;
-	margin-left: 25px;
-}
-.resume{
-	width: 50px;
-	height: 50px;
-	margin-left: 25px;
-}
-.resume_container{
-	text-align: center;
-	
-}
-.resume_png{
 	height: 776.5px;
 	width: 600px;
-	display: none;
+	margin-left: auto;
+	margin-right: auto;
 }
+	
+/*.form_container{
+	text-align: center;
+}
+
+
+.form{
+	display: inline-block;
+	width: 500px;
+	height: 350px;
+	background-color: white;
+	margin-top: 25px;
+}
+.test{
+	background-color: black;
+}
+.test p{
+	color: white;
+	display: block;
+	padding: 25px;
+}
+*/
