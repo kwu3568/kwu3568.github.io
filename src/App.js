@@ -26,7 +26,7 @@ export default function App(){
 		<>
 		<html>
 		   <body>
-		   <img onClick = {() => show_resume()} onMouseLeave = {() => remove_resume()} id = "resume_png" class = "resume_png" src = "resume.png" alt ="resume"></img>	
+		   <img onClick = {() => show_resume()} onMouseLeave = {() => remove_resume()} id = "resume_png" class = "resume_png" src = "SkillStorm_Resume.png" alt ="resume"></img>	
 		   <h1 id = "header">Kevin Wu</h1>
 		   <div class = "contact_info">
 		   <div class = "email">kwu3568@gmail.com</div>
